@@ -28,15 +28,11 @@ The page runs without a backend. Every interaction (navigation, the invoice demo
 
 ## Screenshots
 
-> Save your images in a `screenshots/` folder and keep the file names below, or update the paths.
-
 ### Desktop
 
 ![Desktop home page](screenshots/desktop-home.png)
-*Desktop view (1280px): navigation bar, hero section and the interactive invoice demo.*
 
 ![Desktop features and pricing](screenshots/desktop-features-pricing.png)
-*Desktop view: features and pricing sections.*
 
 ### Mobile
 
@@ -250,4 +246,4 @@ Text sizes for the main headings use `clamp()` so they scale smoothly between sc
 **Sherwin Dmonte**
 Front-end internship assignment for Sankar Group
 
-- GitHub: [your-username](https://github.com/SherwinDmonte)
+- GitHub: [(SherwinDmonte)](https://github.com/SherwinDmonte)
