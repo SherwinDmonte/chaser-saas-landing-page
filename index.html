@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chaser - invoice follow-ups for small businesses</title>
+<meta name="description" content="Chaser sends polite payment reminders by WhatsApp and email, so you stop chasing invoices by hand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="brand">Chaser</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <nav id="menu" class="menu">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-sm" data-plan="">Get started</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Get paid without the awkward messages.</h1>
+      <p class="lead">Chaser sends friendly payment reminders on WhatsApp and email, on the days you choose, and stops the moment an invoice is paid. Built for shops, studios and agencies that send fewer than 200 invoices a month.</p>
+      <div class="actions">
+        <a href="#contact" class="btn">Request a demo</a>
+        <a href="#how" class="btn btn-ghost">See how it works</a>
+      </div>
+      <p class="small">Free for your first 10 invoices. No card needed.</p>
+    </div>
+
+    <div class="board" aria-label="Interactive example of unpaid invoices">
+      <div class="board-head"><strong>Unpaid invoices</strong><span id="owed">Rs 68,400 outstanding</span></div>
+      <ul id="inv">
+        <li data-amt="42000"><div><b>Mehta Interiors</b><small>INV-1048, 9 days late</small></div><span class="tag late">Late</span><button class="btn btn-sm btn-line">Send reminder</button></li>
+        <li data-amt="18900"><div><b>Patel &amp; Sons</b><small>INV-1051, due in 2 days</small></div><span class="tag soon">Due soon</span><button class="btn btn-sm btn-line">Send reminder</button></li>
+        <li data-amt="7500"><div><b>Anaya Studio</b><small>INV-1053, 4 days late</small></div><span class="tag late">Late</span><button class="btn btn-sm btn-line">Send reminder</button></li>
+      </ul>
+      <p class="small" id="boardnote">Try it. Press a button to send a sample reminder.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="features">
+  <div class="wrap">
+    <h2>What Chaser takes off your plate</h2>
+    <div class="feat">
+      <article class="f-big">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
+        <h3>Reminders in the app your customers actually open</h3>
+        <p>Send over WhatsApp, email or both. Write the message once in your own words and Chaser fills in the name, amount and pay link.</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg>
+        <h3>A schedule you control</h3>
+        <p>Nudge 3 days before, on the due date, then every week. Skip weekends and festival days.</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>
+        <h3>Stops when paid</h3>
+        <p>Mark an invoice paid, or connect your UPI account, and reminders end immediately.</p>
+      </article>
+      <article class="f-wide">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9M12 19V5M19 19v-7"/></svg>
+        <h3>See who pays late, and by how much</h3>
+        <p>A weekly summary shows your slowest customers and how many days faster invoices are paid since you started.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint" id="how">
+  <div class="wrap how">
+    <div>
+      <h2>Set it up over a cup of tea</h2>
+      <p class="lead">Most owners are sending their first reminder within fifteen minutes. There is nothing to install.</p>
+    </div>
+    <ol>
+      <li><h3>Bring in your invoices</h3><p>Upload a CSV from Tally or Zoho, or add them by hand.</p></li>
+      <li><h3>Pick a reminder style</h3><p>Choose gentle, firm or your own wording, and set the schedule.</p></li>
+      <li><h3>Let it run</h3><p>Chaser sends, tracks replies and tells you when money arrives.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <div class="price-top">
+      <h2>Pricing that stays simple</h2>
+      <div class="toggle" role="group" aria-label="Billing period">
+        <button class="on" data-bill="m" aria-pressed="true">Monthly</button>
+        <button data-bill="y" aria-pressed="false">Yearly, 2 months free</button>
+      </div>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <h3>Starter</h3>
+        <p class="amt"><span data-m="0" data-y="0">Rs 0</span></p>
+        <ul><li>10 invoices a month</li><li>Email reminders</li><li>One reminder schedule</li></ul>
+        <a href="#contact" class="btn btn-line" data-plan="Starter">Start free</a>
+      </article>
+      <article class="plan best">
+        <h3>Studio</h3>
+        <p class="amt"><span data-m="Rs 799" data-y="Rs 7,990">Rs 799</span><small>/ <i class="per">month</i></small></p>
+        <ul><li>200 invoices a month</li><li>WhatsApp and email</li><li>Custom wording and schedules</li><li>Weekly late-payer report</li></ul>
+        <a href="#contact" class="btn" data-plan="Studio">Choose Studio</a>
+      </article>
+      <article class="plan">
+        <h3>Team</h3>
+        <p class="amt"><span data-m="Rs 1,999" data-y="Rs 19,990">Rs 1,999</span><small>/ <i class="per">month</i></small></p>
+        <ul><li>Unlimited invoices</li><li>5 team members</li><li>Tally and Zoho sync</li><li>Phone support</li></ul>
+        <a href="#contact" class="btn btn-line" data-plan="Team">Choose Team</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint" id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2>Ask for a 20-minute demo</h2>
+      <p class="lead">Tell us a little about your business and we will reply within one working day.</p>
+      <p class="small">hello@chaser.example<br>+91 98765 43210<br>Mon to Sat, 10am to 6pm IST</p>
+    </div>
+    <form id="form" novalidate>
+      <label>Your name<input name="name" autocomplete="name" required><em></em></label>
+      <label>Work email<input name="email" type="email" autocomplete="email" required><em></em></label>
+      <label>Plan you are interested in
+        <select name="plan"><option value="">Not sure yet</option><option>Starter</option><option>Studio</option><option>Team</option></select><em></em>
+      </label>
+      <label>What do you want to fix?<textarea name="msg" rows="3" required minlength="10"></textarea><em></em></label>
+      <button class="btn" type="submit">Request demo</button>
+      <p id="ok" class="ok" role="status" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span><b>Chaser</b> is a sample product made for the Sankar Group front-end assignment.</span>
+    <span>&copy; <span id="yr">2026</span> Chaser</span>
+  </div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
